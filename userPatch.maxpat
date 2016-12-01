@@ -756,6 +756,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 351.666687, 869.666687, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1161.0, 529.666687, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "TURN ME ON!"
 				}
@@ -768,6 +770,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"patching_rect" : [ 351.666687, 899.666687, 211.0, 211.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1154.333374, 569.0, 211.0, 211.0 ],
 					"style" : ""
 				}
 
@@ -8798,7 +8802,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 267.0, 265.5, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "45"
+					"text" : "127"
 				}
 
 			}
