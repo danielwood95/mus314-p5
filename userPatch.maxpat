@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 78.0, 78.0, 1141.0, 754.0 ],
+		"rect" : [ 78.0, 79.0, 1141.0, 754.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -8391,7 +8391,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 705.0, 627.333435, 180.0, 22.0 ],
 					"style" : "",
-					"text" : "udpsend 169.245.255.255 5556"
+					"text" : "udpsend 169.254.255.255 5556"
 				}
 
 			}
@@ -8542,7 +8542,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 515.248047, 509.333374, 180.0, 22.0 ],
 					"style" : "",
-					"text" : "udpsend 169.245.255.255 5556"
+					"text" : "udpsend 169.254.255.255 5556"
 				}
 
 			}
@@ -8884,7 +8884,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 267.0, 265.5, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "127"
+					"text" : "32"
 				}
 
 			}
