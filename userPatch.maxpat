@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 151.0, 78.0, 1239.0, 754.0 ],
+		"rect" : [ 78.0, 78.0, 1141.0, 754.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -263,7 +263,7 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 446.0, 730.666687, 61.0, 22.0 ],
 					"style" : "",
-					"text" : "random 3"
+					"text" : "random 2"
 				}
 
 			}
@@ -991,7 +991,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 115.0, 78.0, 1224.0, 702.0 ],
+						"rect" : [ 266.0, 155.0, 1224.0, 702.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1020,19 +1020,6 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-98",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 2219.583496, 133.666656, 29.5, 22.0 ],
-									"style" : "",
-									"text" : "12"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-96",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -1040,7 +1027,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 2159.25, 133.666656, 29.5, 22.0 ],
 									"style" : "",
-									"text" : "6"
+									"text" : "12"
 								}
 
 							}
@@ -1060,25 +1047,12 @@
 								"box" : 								{
 									"id" : "obj-91",
 									"maxclass" : "newobj",
-									"numinlets" : 4,
-									"numoutlets" : 4,
-									"outlettype" : [ "bang", "bang", "bang", "" ],
-									"patching_rect" : [ 2098.916748, 74.666664, 200.0, 22.0 ],
+									"numinlets" : 3,
+									"numoutlets" : 3,
+									"outlettype" : [ "bang", "bang", "" ],
+									"patching_rect" : [ 2098.916748, 74.666664, 139.666504, 22.0 ],
 									"style" : "",
-									"text" : "sel 0 1 2"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-84",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
-									"patching_rect" : [ 2041.333252, 74.666664, 31.0, 22.0 ],
-									"style" : "",
-									"text" : "% 3"
+									"text" : "sel 0 1"
 								}
 
 							}
@@ -8242,7 +8216,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-84", 0 ],
+									"destination" : [ "obj-91", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-80", 0 ]
@@ -8296,15 +8270,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-91", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-84", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-194", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -8341,15 +8306,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-98", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-91", 2 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-203", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -8381,15 +8337,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-97", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-17", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-98", 0 ]
 								}
 
 							}
@@ -8442,9 +8389,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 705.0, 627.333435, 140.0, 22.0 ],
+					"patching_rect" : [ 705.0, 627.333435, 180.0, 22.0 ],
 					"style" : "",
-					"text" : "udpsend 127.0.0.1 5556"
+					"text" : "udpsend 169.245.255.255 5556"
 				}
 
 			}
@@ -8593,9 +8540,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 515.248047, 509.333374, 137.0, 22.0 ],
+					"patching_rect" : [ 515.248047, 509.333374, 180.0, 22.0 ],
 					"style" : "",
-					"text" : "udpsend localhost 5556"
+					"text" : "udpsend 169.245.255.255 5556"
 				}
 
 			}
