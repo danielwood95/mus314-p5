@@ -7,6 +7,7 @@ Each path also decays over time so that it appears as a snake. This is a practic
 
 Finally, the grid ends up containing uncleared pixels and skipped parts in the path because each user's location is being sent over UDP and there is sometimes packet loss. So this can also be viewed as a musical visualization of UDP packet loss. 
 
+First performance [December 5, 2016](https://www.youtube.com/watch?v=kOYd1iLDUoo).
 
 ### Authors
 - Eric Hayes
